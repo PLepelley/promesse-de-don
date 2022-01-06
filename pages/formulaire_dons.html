@@ -35,7 +35,7 @@
                 </div>
                 <div class="bloc">
                     <label for="birth">Date de naissance* :</label>
-                    <input type="text" id="birth" name="user_birth" required>
+                    <input type="date" id="birth" name="user_birth" required>
                 </div>
                 <div class="bloc">
                     <label for="adress">N° Voie/Rue</label>
@@ -68,12 +68,16 @@
                     </select>
                 </div>
                 <div class="bloc">
+                    <label for="phone">Quantité de sang à donner (ml) :</label>
+                    <input type="number" id="phone" name="user_phone">
+                </div>
+                <div class="bloc">
                     <label for="email">Email* :</label>
                     <input type="email" id="email" name="user_email" required>
                 </div>
                 <div class="bloc">
                     <label for="phone">Téléphone :</label>
-                    <input type="text" id="phone" name="user_phone">
+                    <input type="tel" id="phone" name="user_phone">
                 </div>
                 <div class="bloc">
                     <label for="don">Avez-vous déjà donné votre sang :</label>
@@ -92,8 +96,8 @@
                         placeholder="Votre message"></textarea>
                 </div>
                 <div id="checkbox">
-                    <input type="checkbox" id="cgu" name="cgu">
-                    <label for="cgu">J'accepte les CGU</label>
+                    <input type="checkbox" id="cgu" name="cgu" required>
+                    <label for="cgu">J'accepte les CGU *</label>
                 </div>
                 <div id="button_send">
                     <button type="submit">Envoyer</button>

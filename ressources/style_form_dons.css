@@ -48,7 +48,7 @@ label
     width: 200px;
 }
 
-input[type=text], input[type=email], select
+input[type=text], input[type=email], input[type=number], input[type=tel], input[type=date] select
 {
     border: 1px solid #F05454;
     border-radius: 3px;
